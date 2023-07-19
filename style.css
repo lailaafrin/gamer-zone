@@ -171,6 +171,7 @@ line-height: 30px;
 }
 
 .banner-content h4{
+    
       background-image: linear-gradient(to bottom,red,blue);
     color:transparent;
     -webkit-background-clip: text;
@@ -205,4 +206,104 @@ font-family: work sans;
 }
 .banner-content h5{
     margin-top: 0;
+}
+/* online game card section */
+.online-game{
+    max-width: 900px;
+    text-align: center;
+    font-size: 30px;
+font-style: normal;
+font-weight: 800;
+}
+.f-v{
+      background-image: linear-gradient(to bottom,red,blue);
+    color:transparent;
+    -webkit-background-clip: text;
+    font-family: Work Sans;
+font-size: 30px;
+font-style: normal;
+font-weight: 800;
+margin-top: 5px;
+margin-bottom: 10px;  
+}
+
+.cards{
+    /* max-width: 900; */
+    display:flex;
+    justify-content: center;
+
+}
+
+.img-card{
+    
+    width: 220px;
+    height:300px;
+    
+}
+
+.card{
+    width: 220px;
+    height:300px;
+    box-shadow: 4px 4px 4px gray;
+    
+}
+.card img-card overlay{
+
+}
+/* position layout section */
+.play-container{
+    margin: 50px atuo o;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.paly-section img{
+    width: 50%;
+}
+
+/* button image section */
+
+.btn-container{
+    display: flex;
+}
+.btn-card{
+
+}
+.icon{
+align-items: center;
+}
+.b-img{
+
+}
+
+/* footer section */
+.foot{
+    text-align: center;
+    margin: auto;
+    color: white;
+    background-color: rgb(54, 48, 60);
+    padding: 130px;
+}
+.f-fast a{
+
+color: aliceblue;
+text-decoration: none;
+}
+.foot p{
+    color: aliceblue;
+}
+.term a{
+    color: aliceblue;
+    text-decoration: none;
+    
+}
+.foot i{
+    font-size: 40px;
+    margin:10px;
+} 
+ .nav-logo-container{
+    margin-left: auto;
+    margin-right: 100px;
+    margin-bottom: 20px;
+    align-items: center;
 }
