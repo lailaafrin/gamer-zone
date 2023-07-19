@@ -31,13 +31,29 @@ margin-top: 30px;
 /*  */
 }
 .cards{
-    flex-direction: repeat(1fr);
+    grid-template-columns: 1fr;
+    
+
+    
 
 }
 
-
-/* footer section */
-
-
-
+.img-card{
+    max-width: 500px;
+    height:800px;
+    
 }
+.foot{
+    max-width: 700px;
+    
+}
+.play-container{
+    flex-direction: column;
+}
+}
+
+
+
+
+
+
