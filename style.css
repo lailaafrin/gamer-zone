@@ -9,7 +9,8 @@ body{
     font-family: 'Work Sans', sans-serif;
 }
 header{
-    background-color: darkgrey;
+    background-color: rgb(192, 190, 190);
+    box-shadow: 1px 1px 1px 1px rgb(168, 168, 168);
 }
 
 .navbar-container{
@@ -32,13 +33,15 @@ header{
 
 .nav-logo-container img{
     width: 80px;
-    
+    align-items: center;
     object-fit: cover;
+margin-top: 15px;
     margin-right: 20px;
 }
 
 .nav-logo-container p{
     text-align: center;
+    justify-content: center;
 font-family: Work Sans;
 font-size:45px;
 
@@ -51,7 +54,7 @@ line-height: normal;
     width: 50%;
 display: flex;
 justify-content: space-around;
-align-items: center;
+align-content: center;
 
 }
 
@@ -61,12 +64,16 @@ align-items: center;
     
 }
 .g-color{
+    align-items: center;
+    margin-top: 10px;
     color:deeppink;
 }
 .nav-btn{
+
     background-color: rgb(149, 143, 143);
     padding: 5px;
     border-radius: 5px;
+    
 }
 
 /* banner section */
@@ -76,7 +83,7 @@ max-width: 1140;
     display: flex;
 
     gap: 70px;
-    margin:40px auto 0;
+    margin: auto 0;
     align-items: center;
     background-image: url('./images/Group\ 14.png');
     background-size: 50%;
